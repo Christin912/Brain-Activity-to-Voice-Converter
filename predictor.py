@@ -209,7 +209,7 @@ num_positive = y_pred_binary.sum().item()
 num_total = y_pred_binary.shape[0]
 
 # Determine the final answer based on the majority
-if num_positive / num_total >= 0.5:
+if num_positive / num_total >= 0.32:
     final_answer = "Yes"
 else:
     final_answer = "No"
