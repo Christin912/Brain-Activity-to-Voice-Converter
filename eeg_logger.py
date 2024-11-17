@@ -1,4 +1,3 @@
-# Python code (save as eeg_logger.py)
 import serial
 import csv
 from datetime import datetime

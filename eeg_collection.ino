@@ -1,4 +1,3 @@
-// Arduino code (save as eeg_collection.ino)
 const int EEG_PIN = A0;  // Analog pin for EEG reading
 const int SAMPLE_RATE = 200;  // Sampling rate in Hz
 const unsigned long SAMPLE_INTERVAL = 1000000 / SAMPLE_RATE;  // Interval in microseconds
