@@ -216,3 +216,43 @@ else:
 
 # Output the final answer
 print(f"The final answer is: {final_answer}")
+
+
+# ---------------------------------------------
+# Add GUI to Display Results
+# ---------------------------------------------
+
+import tkinter as tk
+
+def display_result(final_answer):
+    """
+    Creates a simple GUI to display the prediction result.
+    """
+    # Initialize the main application window
+    root = tk.Tk()
+    root.title("Prediction Result")
+    root.geometry("400x200")
+    
+    # Set background color based on prediction
+    if final_answer == "Yes":
+        root.configure(bg="green")
+        result_text = "Yes"
+    else:
+        root.configure(bg="red")
+        result_text = "No"
+    
+    # Display the result
+    label = tk.Label(
+        root,
+        text=f"The final answer is: {result_text}",
+        font=("Helvetica", 18),
+        bg=root.cget("bg"),
+        fg="white"
+    )
+    label.pack(expand=True)
+    
+    # Start the Tkinter loop
+    root.mainloop()
+
+# Call the GUI function with the final prediction
+display_result(final_answer)
