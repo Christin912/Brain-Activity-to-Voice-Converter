@@ -1,5 +1,5 @@
 # Nat-Hack-2024
-# Disabled communication device
+# Voice your thoughts, a disabled communication aid.
   14/11/2024
   Made by Khushdeep Brar, Angad Chahil, Annie Ding Sign here ....
 
