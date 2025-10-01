@@ -43,10 +43,6 @@ Getting Started
 
 Clone the repository
 
-git clone https://github.com/Khushdeep1337/Nat-Hack-2024.git
-cd Nat-Hack-2024
-
-
 Install dependencies
 
 pip install -r requirements.txt
